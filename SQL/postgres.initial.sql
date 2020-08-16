@@ -1,19 +1,9 @@
---
--- Sequence "collected_contacts_seq"
--- Name: collected_contacts_seq; Type: SEQUENCE; Schema: public; Owner: postgres
---
-
 CREATE SEQUENCE collected_contacts_seq
     START WITH 1
     INCREMENT BY 1
     NO MAXVALUE
     NO MINVALUE
     CACHE 1;
-
---
--- Table "collected_contacts"
--- Name: collected_contacts; Type: TABLE; Schema: public; Owner: postgres
---
 
 CREATE TABLE collected_contacts (
     contact_id integer DEFAULT nextval('collected_contacts_seq'::text) PRIMARY KEY,
