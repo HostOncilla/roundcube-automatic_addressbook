@@ -5,6 +5,7 @@
     "keywords": ["addressbook","automatic"],
     "homepage": "https://github.com/projectmyst/roundcube-automatic_addressbook",
     "license": "GPL-3.0+",
+    "version": "0.5",
     "authors": [
         {
             "name": "Geraldo V Vieira",
