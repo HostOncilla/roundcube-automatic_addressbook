@@ -43,11 +43,8 @@ class automatic_addressbook extends rcube_plugin
         $this->add_hook('contact_update', array($this, 'handle_doubles'));
         $this->add_hook('contact_create', array($this, 'handle_doubles'));
        
-        $this->add_texts('localization/', false);
-        $this->load_config('config/config.inc.php.dist');
-        if (file_exists("./plugins/automatic_addressbook/config/config.inc.php")) {
-            $this->load_config('config/config.inc.php');
-        }
+        $this->add_texts('localization/');
+        $this->load_config();
 
         // Adds an address-book category in rc <= 0.5, retro-compatibility code, 
         // not needed for rc 0.6
