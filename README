@@ -1,20 +1,24 @@
-
-Summary
--------
+Automatic Addressbook Plugin for Roundcube
+========================================
 
 The automatic addressbook plugin collect each address you send an email to and records it in an address book, making it available for later use or auto-completion.
 
-report bugs, ideas and patches at : https://github.com/sblaisot/automatic_addressbook
+## License
 
+This plugin is released under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License Version 3+</a>.
 
-Contributing
-------------
+## Installation
 
-Feel free to report issues, suggest features or to submit patches on the issue tracker.
+* Rename the plugin folder to `automatic_addressbook`
+* Upload `automatic_addressbook` folder to your Roundcube `plugins` directory
+* Add `automatic_addressbook` to `$config['plugins']` in your Roundcube `config/config.inc.php`
 
-You can get the code from git at:
+## Configuration
 
-    git clone https://github.com/sblaisot/automatic_addressbook
+You can customize some settings :
+
+* Rename config.inc.php.dist to config.inc.php
+* Edit config.inc.php as you fancy
 
 
 
