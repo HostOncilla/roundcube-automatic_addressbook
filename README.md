@@ -17,8 +17,8 @@ This plugin is released under the <a href="https://www.gnu.org/licenses/gpl.html
 
 You can customize some settings :
 
-* Rename plugins/automatic_addressbook/config.inc.php.dist to plugins/automatic_addressbook/config.inc.php
-* Edit config.inc.php as you fancy
+* Rename `plugins/automatic_addressbook/config.inc.php.dist` to `plugins/automatic_addressbook/config.inc.php`
+* Edit `plugins/automatic_addressbook/config.inc.php` as you fancy
 
 
 
