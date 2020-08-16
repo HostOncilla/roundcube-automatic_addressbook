@@ -12,7 +12,7 @@ $rcmail_config['db_table_collected_contacts'] = 'collected_contacts';
 /* automatic_addressbook is enabled by default */
 $rcmail_config['use_auto_abook'] = true;
 
-/* use automatic_addressbook for completion */
+/* use automatic_addressbook for auto-completion */
 $rcmail_config['use_auto_abook_for_completion'] = true;
 
 ?>
