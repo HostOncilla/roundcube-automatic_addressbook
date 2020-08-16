@@ -31,8 +31,8 @@ Configuration
 
 You can customize some settings :
 
-    copy config/config.inc.php.dist to config/config.inc.php
-    edit config/config.inc.php as you fancy
+    copy config.inc.php.dist to config.inc.php
+    edit config.inc.php as you fancy
 
 Among others, you can choose if your users will have automatic_addressbook enabled or disabled by default (use_auto_abook option).
 
