@@ -1,5 +1,5 @@
 {
-    "name": "projectmyst/roundccube-automatic_addressbook",
+    "name": "projectmyst/automatic_addressbook",
     "type": "roundcube-plugin",
     "description": "The automatic addressbook plugin collect each address you send an email to and records it in an address book, making it available for later use or auto-completion.",
     "keywords": ["addressbook","automatic"],
