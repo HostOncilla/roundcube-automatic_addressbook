@@ -1,8 +1,8 @@
 <?php
 $labels = array();
-$labels['automaticallycollected']  = 'Automatically Collected';
-$labels['useautoabook']  = 'Use automatic address book';
-$labels['useforcompletion'] = 'Use automatically collected addresses for autocompletion';
-$labels['contactremoved'] = 'Contact(s) deleted from automatic address book';
-$labels['contactmoved'] = 'Contact(s) moved from automatic address book';
+$labels['automaticallycollected']  = 'Diklumpat sacara otomatis';
+$labels['useautoabook']  = 'Gunakake buku alamat otomatis';
+$labels['useforcompletion'] = 'Gunakake alamat sing diklumpukake kanthi otomatis kanggo autocompletion';
+$labels['contactremoved'] = 'Hubungi dihapus saka buku alamat otomatis';
+$labels['contactmoved'] = 'Hubungi pindah saka buku alamat otomatis';
 ?>
